@@ -1,0 +1,40 @@
+# Python cache ve geçici dosyalar
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.tmp
+
+# Sanal ortam klasörleri (virtualenv)
+venv/
+env/
+.venv/
+.env/
+
+# IDE klasörleri
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoint dosyaları
+.ipynb_checkpoints/
+
+# Mac ve Windows sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# PyInstaller ve build klasörleri
+build/
+dist/
+*.spec
+
+# Test çıktıları
+.coverage
+htmlcov/
+*.pytest_cache/
+
+# Notebooks ve geçici dosyalar
+*.swp
+*.bak
+*.orig
