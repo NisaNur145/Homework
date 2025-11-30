@@ -1,13 +1,4 @@
 import random
-#Fibonacci Dizisi
-liste=[0,1]
-sayi=int(input("Sayi Giriniz"))
-print(0)
-print(1)
-for i in range(0,sayi-2):
-   c=liste[-1]+liste[-2]
-   liste.append(c)
-   print(c)
 
 #Sayi Tahmin Oyunu
 rastgele=random.randint(1,100)
@@ -21,15 +12,7 @@ while rastgele!=tahmin:
 if tahmin==rastgele:
     print(f"Bildin! Tuttuğum sayi {rastgele} idi!")
 
-#Kelime Değiştirme
-metin=input("Bir kelime girin!")
-yeni_metin=""
-for harf in metin:
-    if harf in ["a","e","ı","i","o","ö","u","ü"]:
-        yeni_metin+="*"
-    else:
-        yeni_metin+="#"
-print(yeni_metin)
+
 
 #Taş Kağıt Makas Oyunu
 round_sayisi=int(input("Taş Kağıt Makasa Hoşgeldin! Kaç round oynamak istiyorsun?"))
@@ -101,6 +84,8 @@ elif skor["kullanıcı"]<skor["bilgisayar"]:
     kazanan="Kaybettin!"
 else:
     kazanan="Beraberlik!"
+
+print("*******************")
 print("Oyun Bitti")
 print(f"Oyun Skoru: {skor}")
 print(f"Kazanan: {kazanan}")
